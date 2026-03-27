@@ -41,12 +41,13 @@
 
     /* ── outer TUI window ──────────────────────────────────── */
     .win {
-      max-width: 84ch;
-      margin: 0 auto;
-      border: 1px solid var(--bg3);
-      background: var(--bg0);
-      transition: border-color .3s;
-    }
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border: 1px solid var(--bg3);
+  background: var(--bg0);
+  transition: border-color .3s;
+}
     .win:hover { border-color: var(--bg3); }
 
     /* ── title bar ─────────────────────────────────────────── */
